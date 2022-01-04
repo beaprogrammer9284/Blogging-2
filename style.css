@@ -1,8 +1,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    
-
 }
 /* =====================Home Container================= */
 .home-section{
@@ -107,6 +105,101 @@ button:hover{
 }
 /* =========================Container-1-End====================  */
 
+
+/* ========================Second Page-Start================= */
+.second{
+    height: 700px;
+    width: 100%;
+}
+.container-second{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+.flexbox{
+    height: 370px;
+    width: 50%;
+}
+.flexbox img{
+    height: 370px;
+    width: 100%;
+}
+.flexbox-4{
+    height: 370px;
+    width: 50%;
+    background-color: rgb(130,119,111);
+}
+.flexbox-4 h4{
+    padding-top: 60px;
+    padding-left: 200px;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.flexbox-4 p{
+    /* margin: 0px 75px; */
+    padding-left: 200px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+.flexbox-4 button{
+    background-color:  #e2a355;
+    color: white;
+    border-radius: 50px;
+    padding: 8px 30px 8px 30px;
+    margin: 30px 200px;
+    border-style: none;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.container1{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+.flexbox-1{
+    height: 370px;
+    width: 50%;
+    background-color: rgb(237,180,123);
+}
+.flexbox-1 h4{
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+.flexbox-1 p{
+    padding-top: 20px;
+    padding-left: 260px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+.flexbox-1 button{
+    background-color:  rgb(245,164,77);
+    color: white;
+    border-radius: 50px;
+    padding: 8px 30px 8px 30px;
+    margin: 30px 270px;
+    border-style: none;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.flexbox-2 img{
+    height: 362px;
+    width: 100%;
+}
+.flexbox-2{
+    height: 370px;
+    width: 50%;
+}
+
+/* ========================Second Page-Enf================= */
+
 /* =======================container-2===================== */
 
 
@@ -196,9 +289,8 @@ button:hover{
 
 /* ========================container-3================= */
     .container-3{
-    height:400px;
+    height: 550px;
     width: auto;
-
 }
 span i{
     margin-left: 650px;
@@ -279,9 +371,10 @@ input[type="submit"]{
 
 /* ========================Footer Section Start==================== */
 .footer{
-    height: auto;
+    height: 500px;
     width: 100%;
     display: flex;
+    background-color: rgb(130,119,111);
 }
 .flexbox1{
     height: auto;
@@ -369,6 +462,7 @@ input[type="submit"]{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* ========================Footer Section End==================== */
+
 
 /* =======================container-3-End===================== */
 /* @media only screen and (max-width: 600px) {
