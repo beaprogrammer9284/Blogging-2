@@ -1,26 +1,30 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
+/* =====================container-1================= */
  .container{
-    height: 100vh;
-    width: 100vw;
+    height: 650px;
+    width:auto;
     background-image: url(./asset/Images/shadow.png);
     background-size:cover;
     background-repeat: no-repeat;
-      
 }
+
 .container h2{
     text-align: center;
     color:goldenrod;
     padding:20px;
-    font-family:serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
+    font-weight: bold;
 }
+
 .container p{
     text-align: center; 
-    font-family:sans-serif;
-    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
     color: gray;
     padding: 20px;
 } 
@@ -29,15 +33,15 @@
     display: flex;
     justify-content: center; 
 }
+
 .card{
-    background-color: gray;
+    background-color: rgb(100, 97, 97);
     height: 320px;
     width: 230px;
     margin: 25px;
 }
 
 .card-img{
-    background-color: tomato;
     height: 170px;
     margin-bottom: 15px;
     background-size: cover; 
@@ -60,30 +64,303 @@
     font-family:serif;
     color: white;
 }
+
 .card p{
     padding: 10px;
     font-family: sans-serif;
     color: white;
 }
+
 .container button{
-    margin-left: 580px;
+    margin-left: 570px;
     border-radius: 50px;
     padding: 10px 50px;
     border: none;
     margin-top: 20px;
     font-size: 18px;
     font-family:serif;
-    background-color: gray;
+    background-color: rgb(83, 81, 81);
     color: white;
 }
+
 button:hover{
-    background-color: rgb(70, 66, 66);
+    background-color: rgb(54, 51, 51);
 }
-.container-1{
-    height: 100vh;
-    width: 100vw;
-    background-color: bisque;
+/* =========================Container-1-End====================  */
+
+/* =======================container-2===================== */
+
+
+    .container-1{
+        width: auto;
+        height: 400px;
+        position: relative;
+        margin:20px;
+        
+    }
+
+    .box{
+        width:100%;
+        height: 100%;            
+        position:absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.9; 
+        background-image: url(./asset/Images/design.png);
+        background-position: center;
+        background-repeat: no-repeat; 
+        background-color: gray;
+
+  }
+    .stack-top{
+        z-index: 9;
+         background-image:url(./asset/Images/shadow.png);
+        background-repeat: no-repeat; 
+    }
+
+   .container-1 h1{
+    color:white;
+    text-align: center; 
+    padding-bottom: 20px;
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.container-1 p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color:white;
+} 
+
+  .container-2{
+   
+    height:800px;
+    width: auto; 
+     
+ } 
+  .img{
+      height: 600px;
+      width: auto;
+      background-image: url(./asset/Images/Explore-img.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 20px 20px;
+  }
+  
+ 
+  .flex{
+    display: flex;
+    padding-top: 600px;
+
+}
+
+.flex-row{
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+}
+
+.flex-row h4{
+    padding: 10px;
+    font-size: 18px;
+    color:rgb(175, 134, 30);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-row p{
+    padding: 10px;
+} 
+/* =======================container-2-End===================== */
+
+/* ========================contaner-3================= */
+    .container-3{
+    height:400px;
+    width: auto;
+
+}
+span i{
+    margin-left: 650px;
+    font-size: 60px;
+}
+
+.container-3 p{
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container-3 h4{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 30px;
+     padding-top: 30px;
+    
+} 
+
+ .btn{
+    height: 400px;
+    width: auto;
+    background-color:rgb(240, 137, 118);
+    margin-top: 50px;
+
+
+}
+
+.btn h2{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn p{
+       
+}
+
+
+input[type="email"]{
+    border-radius: 45px;
+    padding-left: 20px;
+    margin-left: 500px;
+    padding-right: 15px;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 70px;
+    width: 350px;
+
+}
+input[type="submit"]{
+    border-radius: 45px;
+    padding-left: 20px;
+    margin-left: 600px;
+    padding-right: 15px;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 70px;
+    width: 120px;
+ 
+}
+
+input[type="email"]{
+    color: white;
+}
+
+input[type="submit"]{
+    background-color: gray;
+    border: solid 1px grey;
+    color: white;
+    margin-left: -80px; 
+    
+}    
+
+/* =======================container-3-End===================== */
+/* @media only screen and (max-width: 600px) {
+
+    .container{
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+    
+    .container h2{
+        font-size: 40px;
+        color:goldenrod;
+        font-weight: bold;
+    }
+    
+    .container p{
+        font-size:20px;
+    } 
+    
+    .flex-card{
+        display: inline;
+        padding: 50px 30px;
+        margin-left: 50px; 
+    }
+     .card{
+         width: 460px;
+         height: 600px;
+    }
+    
+    .card-img{
+        height: 400px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    .card h3{
+        padding: 50px;
+        padding-top: 20px;
+        font-size: 30px; 
+    }
+
+    .card p{
+        font-size: 25px;
+    }
+
+    .container button{
+    margin-left: 120px;
+    }
+    
+  } */
+
+  /* @media only screen and (min-width: 768px) {
+    .container{
+        padding-left: 55px;
+        padding-right: 20px;
+        
+    }
+    
+    .container h2{
+        font-size: 50px;
+        color:goldenrod;
+        font-weight: bold;
+    }
+    
+    .container p{
+        font-size:35px;
+    } 
+    
+    .flex-card{
+        display: inline;
+    }
+     .card{
+         width: 600px;
+         height: 800px;  
+    }
+    
+    .card-img{
+        height: 500px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+
+    .card h3{
+        padding: 50px;
+        padding-top: 20px;
+        font-size: 45px; 
+    }
+
+    .card p{
+        font-size: 40px;
+    }
+
+    .container button{
+    margin-left: 200px;
+    font-size: 30px;
+    padding: 20px 40px ;
+
+    }
+    
+  }  */
+
+   
+  
+
 
 
  
