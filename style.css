@@ -313,7 +313,7 @@ span i{
  .btn{
     height: 400px;
     width: auto;
-    background-color:rgb(240, 137, 118);
+    background-color:rgb(237, 180, 123);
     margin-top: 50px;
 
 
@@ -328,12 +328,6 @@ span i{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/* .btn p{
-       
-} */
-
-
 input[type="email"]{
     border-radius: 45px;
     padding-left: 20px;
@@ -362,8 +356,8 @@ input[type="email"]{
 }
 
 input[type="submit"]{
-    background-color: gray;
-    border: solid 1px grey;
+    background-color: rgb(82,80,77);
+    border: solid 1px rgb(82,80,77);
     color: white;
     margin-left: -80px; 
     
