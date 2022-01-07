@@ -4,21 +4,80 @@
 }
 /* =====================Home Container================= */
 .home-section{
-    height: 100vh;
+    height: 900px;
     width: 100%;
-    background-color: red;
+   
 }
-nav{
-    height: 150px;
+.navbar{
+    height: 120px;
     width: 100%;
-    background-color: orange;
+    background-color: white;
+    display: flex;
 }
-/* .home-down{
+#flex1 img{
+    height: 80px;
+    margin: 20px 10px 20px 60px;
+}
+#flex1{
     height: 150px;
-    width: 100%;
-    top: 200px;
-    background-color: orchid;
+    width: 50%;
+}
+#flex2 ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 30px;
+    margin: 30px;
+}
+#flex2 ul li a{
+    text-decoration: none;
+}
+/* nav header ul li{
+    display: inline-block;
+    text-decoration: none;
 } */
+.home-down{
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(./asset/Images/main-bg.png);
+    background-repeat: no-repeat;
+    opacity: 17;
+}
+.home-down h1{
+    font-size: 62px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(237,180,123);
+    font-weight: 900 bold;
+    padding-top: 120px;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+.home-down h4{
+    padding-left: 50px;
+    margin-top: 8px;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    color: rgb(87,85,82);
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button1{
+    margin: 35px 50px;
+    padding: 5px 25px 5px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: "open sans";
+    color: rgb(87,85,82);
+    background-color: white;
+    border-style: none;
+}
+.home-down p{
+    margin: 0px 50px;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
 /* =====================container-1================= */
 
  .container{
